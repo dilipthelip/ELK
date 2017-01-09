@@ -14,6 +14,36 @@ Configuration is available in below path.
  
 ```
 
+### How to start ElasticSearch ?
+
+Approach 1:  
+```
+./elasticsearch
+
+```
+
+Approach 2:  
+
+```
+./elasticsearch --cluster.name XYZ --node.name NODE1
+
+```
+
+### How to run elasticsearch in the background ?
+
+```
+./elasticsearch -d
+
+```
+
+### How to stop ElasticSearch running in the background ?
+
+```
+ps -ef | grep 'elasticsearch'
+
+kill -9 33467
+```
+
 ## LogStash:
 - Developed using JRuby.
 
