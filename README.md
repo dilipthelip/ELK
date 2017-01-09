@@ -7,6 +7,8 @@
 - Distributed document store and uses JSON over a RESTFUL Api.
 - Schema-less
 
+Configuration is available in below path.  
+
 ```
 <Elastic Seartch Download >/config/kibana.yml
  
@@ -21,6 +23,7 @@
 - Uses the search and indexing capabilities of Elastic Search through Restful API to display graphics through end users.
 - Provides histograms, pie charts, column charts, tables, maps etc.,
 
+Configuration is available in below path.  
 
 ```
 <Kibana Download Version>/config/kibana.yml
