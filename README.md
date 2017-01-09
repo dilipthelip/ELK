@@ -69,6 +69,12 @@ Configuration is available in below path.
 
 As soon as the above command is run Kibana starts listening to the address http://localhost:9200/ .  
 
+By default Kibana runs on port 5601.  
+
+**Kibana URL :** localhost:5601  
+
+
+
 
 
 
