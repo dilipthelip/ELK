@@ -59,3 +59,16 @@ Configuration is available in below path.
 <Kibana Download Version>/config/kibana.yml
 
 ```
+
+### How to start Kibana ?
+
+```
+./kibana
+
+```
+
+As soon as the above command is run Kibana starts listening to the address http://localhost:9200/ .  
+
+
+
+
