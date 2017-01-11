@@ -73,6 +73,21 @@ By default Kibana runs on port 5601.
 
 **Kibana URL :** localhost:5601  
 
+### How to install sense plugin in Kibana ?
+
+- Sense plugin helps to search elastic search indexes without using curl command.  
+- Sense provides the control of interacting with the elasticsearch.
+ 
+ Navigate to bin directory of Kibana distribution and run the below command.  
+ 
+ Sense is available as part of the distribution itself in Kibana 5.0 and it is available with the name Sense.  
+ 
+ ```
+ ./kibana plugin --install elastic/sense
+ 
+ ```
+
+
 
 
 
