@@ -17,13 +17,13 @@ Download elastic search from the below link.
 
 [Download Elastic Search](https://www.elastic.co/downloads/elasticsearch)
 
-Elastic Searcg configuration is available in below path.  
+Elastic Search configuration is available in below path.  
 
 ```
 <Elastic Seartch Download >/config/elasticsearch.yml 
 ```
 
-Below parameter determines the host url.If you planning to use localhost you can just comment this part.   
+Below parameter determines the elastic search host url. If you planning to use localhost you can just comment this part.   
 
 ```
 #network.host: 192.168.0.1
