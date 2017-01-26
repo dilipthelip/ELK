@@ -1,11 +1,16 @@
 # ELK
 
 ## Elastic Search:  
-- Elastic search is a NOSQL database
+- Elastic search is a NOSQL database. 
 - This is developed based on Apache Lucence.
 - Developed based on Java.
 - Distributed document store and uses JSON over a RESTFUL Api.
 - Schema-less
+- Its highly available because these always run on a cluster which has multiple nodes.
+- It uses resful api to access the elastic search indexes.
+- **MultiTenancy-** Different nodes are used by different clients.
+- Enable alerts and notifications using **Percolating**.  
+
 
 Configuration is available in below path.  
 
@@ -46,6 +51,10 @@ kill -9 33467
 
 ## LogStash:
 - Developed using JRuby.
+- Process logs and sends it to different types of output sources.
+- It can convert different data sources in to one single format.
+- Fields extraction in logstash for elastic search.
+- 
 
 ## Kibana
 - This is a visualization tool.
