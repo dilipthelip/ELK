@@ -65,6 +65,12 @@ ps -ef | grep 'elasticsearch'
 
 kill -9 33467
 ```
+### ElasticSearch Cluster:
+
+- ElasticSearch cluster is a bunch of nodes , each node is a running instance of elastic search.
+- Each node stores data, participates in cluster searching and indexing capabilities. Each node will be assigned a random marvel character name.
+- When you start a node it tries to find and join a cluster defined in elasticsearch.yml file.
+
 
 ## LogStash:
 - Developed using JRuby.
