@@ -71,6 +71,20 @@ kill -9 33467
 - Each node stores data, participates in cluster searching and indexing capabilities. Each node will be assigned a random marvel character name.
 - When you start a node it tries to find and join a cluster defined in elasticsearch.yml file.
 
+### Nodes:
+Go through the below link.  
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-node.html
+
+### Index in ElasticSearch:  
+- An index is a collection of document with similar characteristics.
+- Index is identified by a name and it must be in lowercase.
+- Used in searching, indexing, updating and deleting documents within index.
+- You can define as many as indexes you want in a cluster.
+- Inside each index there can be multiple **TYPES**. Each type corresponds to one particular type.
+  For Eg., :- company index type and employee index type.  
+
+
 
 ## LogStash:
 - Developed using JRuby.
