@@ -81,8 +81,13 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-node.htm
 - Index is identified by a name and it must be in lowercase.
 - Used in searching, indexing, updating and deleting documents within index.
 - You can define as many as indexes you want in a cluster.
-- Inside each index there can be multiple **TYPES**. Each type corresponds to one particular type.
+- Inside each index there can be multiple **TYPES**. Each type corresponds to one particular type.  
   For Eg., :- company index type and employee index type.  
+- Each JSON object is considered as a document and these are store in an index. Each document has a bunch of **fields** in it.
+
+**FIELDS:**  
+- Each field has a type. It could be Text, Date, Number and so on.  
+
 
 
 
