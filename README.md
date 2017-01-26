@@ -11,12 +11,22 @@
 - **MultiTenancy-** Different nodes are used by different clients.
 - Enable alerts and notifications using **Percolating**.  
 
+### How to download elasticsearch ?
 
-Configuration is available in below path.  
+Download elastic search from the below link.  
+
+[Download Elastic Search](https://www.elastic.co/downloads/elasticsearch)
+
+Elastic Searcg configuration is available in below path.  
 
 ```
-<Elastic Seartch Download >/config/kibana.yml
- 
+<Elastic Seartch Download >/config/elasticsearch.yml 
+```
+
+Below parameter determines the host url.If you planning to use localhost you can just comment this part.   
+
+```
+#network.host: 192.168.0.1
 ```
 
 ### How to start ElasticSearch ?
@@ -67,6 +77,14 @@ Configuration is available in below path.
 ```
 <Kibana Download Version>/config/kibana.yml
 
+```
+
+#### How Kibana connects to elastic search ?
+
+The **Kibana.yml** file has the below property which links the Kibana with elastic search.  
+
+```
+#elasticsearch.url: "http://localhost:9200"
 ```
 
 ### How to start Kibana ?
