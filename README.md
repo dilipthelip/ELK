@@ -34,15 +34,22 @@ Below parameter determines the elastic search host url. If you planning to use l
 Approach 1:  
 ```
 ./elasticsearch
-
 ```
 
 Approach 2:  
 
 ```
 ./elasticsearch --cluster.name XYZ --node.name NODE1
+```
+
+### How to check ElasticSearch is running ?
+
+Launch the below url in the browser.  
 
 ```
+http://localhost:9200/
+```
+
 
 ### How to run elasticsearch in the background ?
 
