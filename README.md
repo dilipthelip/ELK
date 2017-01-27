@@ -95,6 +95,17 @@ Table       |   Type
 Column      |   Field  
 Row         |   Document  
 
+### Shards:  
+- All the data in the index is stored as SHRADS.  
+- Index is divided in to multiple pieces called shrads.  
+- We need to define shrads when creating an Index.  
+
+### Replica:  
+- Replica is a copy of a shrad, each shrad can have one or more replicas.
+- A primary shrad is the place where the document is stored.
+- Primary shrad and replica shrad must be in different nodes.  
+- By default 5 primary shrads and 1 replica shrad for each index in elastic search.  
+
 
 
 
