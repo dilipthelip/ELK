@@ -88,6 +88,13 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-node.htm
 **FIELDS:**  
 - Each field has a type. It could be Text, Date, Number and so on.  
 
+### ElasticSearch Analogy to RDBMS:
+RDBMS       |   ElasticSearch  
+Database    |   Index  
+Table       |   Type  
+Column      |   Field  
+Row         |   Document  
+
 
 
 
