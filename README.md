@@ -90,6 +90,16 @@ curl -<verb>'<protocol>://<host>:<port>/<path>?<QUERY_STRING>' -d '<BODY>'
 
 ```
 
+### How to check the health of the cluster?
+Run the below command in the Console plugin of Kibana:  
+```
+GET _cat/health?v
+
+epoch      timestamp cluster       status node.total node.data shards pri relo init unassign pending_tasks max_task_wait_time active_shards_percent
+1485524214 07:36:54  elasticsearch yellow          1         1      6   6    0    0        6             0                  -                 50.0%
+
+```
+
 ## LogStash:
 - Developed using JRuby.
 - Process logs and sends it to different types of output sources.
