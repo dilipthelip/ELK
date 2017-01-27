@@ -71,7 +71,24 @@ Row         |   Document
 - By default 5 primary shrads and 1 replica shrad for each index in elastic search.  
 
 
+### How to communicate with ElasticSearch ?
 
+- Java API
+  - Node Client
+  - Transport Client
+  
+- RestFul API with JSON over HTTP.
+
+Request to elastic search is like any other HTTP call.  
+
+```
+curl -<verb>'<protocol>://<host>:<port>/<path>?<QUERY_STRING>' -d '<BODY>'
+
+<verb> - Refers to http methods (GET, POST,PUT,DELETE)
+
+<BODY> - This is the JSON object
+
+```
 
 ## LogStash:
 - Developed using JRuby.
