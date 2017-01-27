@@ -23,7 +23,7 @@ Elastic Search configuration is available in below path.
 <Elastic Seartch Download >/config/elasticsearch.yml 
 ```
 
-(Start and Stop Elastic Search)[https://github.com/dilipthelip/LearnELK/blob/master/Start_Stop_ELK.md]
+[Start and Stop Elastic Search](https://github.com/dilipthelip/LearnELK/blob/master/Start_Stop_ELK.md)
 ### ElasticSearch Cluster:
 
 - ElasticSearch cluster is a bunch of nodes , each node is a running instance of elastic search.
