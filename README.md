@@ -98,6 +98,18 @@ GET _cat/health?v
 epoch      timestamp cluster       status node.total node.data shards pri relo init unassign pending_tasks max_task_wait_time active_shards_percent
 1485524214 07:36:54  elasticsearch yellow          1         1      6   6    0    0        6             0                  -                 50.0%
 
+timestamp - current time.
+cluster - represents the cluster name.
+status  - cluster status. Value can be green, red and yellow. 
+GREEN- All primary and replica shrads are active.
+YELLOW - Here we are using only one node and there is no replica nodes. So the status is yellow.
+RED -  All primary shrads are not active.
+node.total -   Total no of nodes in the cluster.
+node.data - Total no of Data nodes in the cluster.
+Shrads - Total no of shrads in the cluster.
+pri - no of primary shrads in the cluster.
+relo -  no of shrads relocating.
+
 ```
 
 ## LogStash:
