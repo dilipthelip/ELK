@@ -109,6 +109,10 @@ node.data - Total no of Data nodes in the cluster.
 Shrads - Total no of shrads in the cluster.
 pri - no of primary shrads in the cluster.
 relo -  no of shrads relocating.
+init - no of shards currently initializing.
+unassign - represents number of unassigned shards.
+pending_tasks - number of cluster tasks in the backlog.
+
 
 ```
 
